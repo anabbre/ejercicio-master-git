@@ -1,0 +1,10 @@
+name: Demo manual
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-name:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Ana Belén Ballesteros Redondo"
